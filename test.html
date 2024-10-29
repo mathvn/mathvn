@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nút bấm với logo và văn bản</title>
+  <style>
+    .button {
+      display: inline-flex; /* Để nội dung trong nút nằm trên cùng một dòng */
+      align-items: center; /* Canh giữa theo chiều dọc */
+      padding: 10px 20px; /* Khoảng cách xung quanh nội dung */
+      background-color: #007bff; /* Màu nền của nút */
+      color: white; /* Màu chữ */
+      text-decoration: none; /* Loại bỏ gạch chân khỏi liên kết */
+      border-radius: 5px; /* Bo tròn các góc */
+      font-size: 16px; /* Kích thước chữ */
+      font-family: Arial, sans-serif; /* Font chữ */
+      border: none; /* Loại bỏ viền của nút */
+    }
+
+    .button img {
+      margin-right: 8px; /* Khoảng cách giữa hình ảnh và văn bản */
+      width: 24px; /* Kích thước của hình ảnh */
+      height: 24px; /* Kích thước của hình ảnh */
+    }
+
+    .button:hover {
+      background-color: #0056b3; /* Thay đổi màu nền khi di chuột qua */
+    }
+  </style>
+</head>
+<body>
+  <a href="https://example.com" class="button">
+    <img src="images/intro-logo.png" alt="Logo"> <!-- Thay thế "logo.png" bằng đường dẫn đến hình ảnh của bạn -->
+    Xem thêm
+  </a>
+</body>
+</html>
